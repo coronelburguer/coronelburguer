@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coronel Burguer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 40px 20px;
+    }
+    header img {
+      width: 380px;
+    }
+    .buttons {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 320px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .buttons a {
+      padding: 14px 20px;
+      background: #ab0101;
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+    .buttons a:hover {
+      opacity: 0.85;
+    }
+
+    .sobre {
+      padding: 50px 20px;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+      font-size: 18px;
+    }
+
+    .galeria {
+      padding: 40px 20px;
+    }
+    .galeria h2 {
+      margin-bottom: 20px;
+    }
+    .fotos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .fotos img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 30px;
+      background: #111;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="images/logo_fundo.png" />
+  </header>
+
+  <div class="buttons">
+    <a href="https://menu.brendi.com.br/coronel-burguer">Acesse o nosso Cardápio</a>
+    <a href="https://wa.me/554799445429">Chamar no Whats App</a>
+    <a href="https://www.ifood.com.br/delivery/jaragua-do-sul-sc/coronel-burguer-ilha-da-figueira/989f6eca-c1fb-4ab1-9070-429e123cbc6b">Peça pelo iFood</a>
+  </div>
+
+  <section class="sobre">
+    <h2>Sobre Nós</h2>
+    <p>
+      Bem-vindo a Coronel Burguer! Aqui a missão é simples: entregar sabor,
+      qualidade e aquele lanche que marca sua noite. Trabalhamos com ingredientes
+      selecionados e preparados com o padrão que você já conhece.
+      Nosso foco está sempre em oferecer refeições saborosas e com a identidade única da Coronel.
+    </p>
+  </section>
+
+  <section class="galeria">
+    <h2>Lanches e Porções</h2>
+    <p>
+      Acesse o cardápio para ver todas as opções, valores e aproveite para garantir já o seu!
+    </p>
+
+      <div class="fotos">
+      <img src="images/bacon_royale.jpeg"/>
+      <img src="images/onion_pick_cheddar.jpeg"/>
+      <img src="images/classico_burguer.png"/>
+      <img src="images/frango_burguer.png"/>
+      <img src="images/caipira_burguer.png"/>
+      <img src="images/calabresa_burguer.png"/>
+      <img src="images/classico_frango.png"/>
+      <img src="images/bacon_supremo.png"/>
+      <img src="images/coronel_burguer.png"/>
+      <img src="images/nuggets.png"/>
+      <img src="images/batata_frita_com_cheddar.png"/>
+      <img src="images/onion_rings.png"/>
+    </div>
+  </section>
+
+  <footer>
+    <h3>Horário de Atendimento</h3>
+    <p>Terça a Quinta: 18:30 às 23:30</p>
+    <p>Sexta e Sábado: 18:30 às 00:30<br>Domingo: 18:30 às 23:30<br>Segunda: Fechado</p>
+  </footer>
+
+</body>
+</html>
